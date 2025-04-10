@@ -1,0 +1,13 @@
+branches: [main]
+plugins:
+  - '@semantic-release/commit-analyzer'
+  - '@semantic-release/release-notes-generator'
+  - - '@semantic-release/npm'
+    - npmPublish: false
+  - - '@semantic-release/exec'
+    - prepareCmd: docker tag kliento-verifier:ci ghcr.io/CheVeraId/kliento-verifier:${nextRelease.version}
+      publishCmd: docker push ghcr.io/CheVeraId/kliento-verifier:${nextRelease.version}
+  - - '@semantic-release/exec'
+    - prepareCmd: docker tag kliento-verifier:ci relaycorp/kliento-verifier:${nextRelease.version}
+      publishCmd: docker push relaycorp/kliento-verifier:${nextRelease.version}
+  - - '@semantic-release/github'
