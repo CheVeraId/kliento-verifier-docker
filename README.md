@@ -1,6 +1,6 @@
 # Docker Image for Kliento Verifier
 
-This Docker image runs the [Kliento Verifier server](https://github.com/CheVeraId/kliento-verifier) on Node.js.
+This Docker image runs the [Kliento Verifier server](https://github.com/CheVeraId/kliento-verifier-js) on Node.js.
 
 ## Installation
 
@@ -10,7 +10,7 @@ This app is available on the GitHub Container Registry as [`ghcr.io/CheVeraId/kl
 
 The container runs on port `3000`. No environment variables or CLI arguments are needed.
 
-Refer to the [Kliento Verifier usage documentation](https://github.com/CheVeraId/kliento-verifier#usage) to learn how to use the API offered by the server.
+Refer to the [Kliento Verifier usage documentation](https://github.com/CheVeraId/kliento-verifier-js#usage) to learn how to use the API offered by the server.
 
 ## Contributions
 
