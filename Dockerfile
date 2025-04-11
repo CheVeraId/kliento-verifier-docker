@@ -1,4 +1,4 @@
-FROM node:22.14.0-slim
+FROM node:23.11.0-slim
 LABEL org.opencontainers.image.source="https://github.com/CheVeraId/kliento-verifier-docker"
 WORKDIR /opt/kliento-verifier
 COPY . ./
