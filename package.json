@@ -14,7 +14,7 @@
     "@veraid/kliento-verifier": "^1.0.3"
   },
   "devDependencies": {
-    "@relaycorp/eslint-config": "^2.0.86",
+    "@relaycorp/eslint-config": "^2.0.87",
     "@relaycorp/shared-config": "^1.9.1",
     "del-cli": "^6.0.0",
     "eslint": "^9.24.0",
